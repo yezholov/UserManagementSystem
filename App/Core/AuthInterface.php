@@ -4,6 +4,6 @@ namespace App\Core;
 
 interface AuthInterface
 {
-    public function login($email, $password);
+    public function login($name, $password);
     public function logout();
 }
